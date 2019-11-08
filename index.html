@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Descargá Processing</title>
+    <meta name="description" content="Descargá Processing ahora. Trabajo realizado para Tecno I.">
+    <meta name="author" content="Nuzze">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/paper.css">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1024px-Processing_Logo_Clipped.svg.png">
+  </head>
+  <body>
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png" alt="logo" width="60"></a></h3>
+      </div>
+      <div class="collapsible">
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="#intro">Qué es</a></li>
+            <li><a href="#creadores">Creadores</a></li>
+            <li><a href="#getstarted">Comenzar</a></li>
+            <li><a href="https://github.com/processing" target="_blank">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <h1 id="intro">¿Qué es Processing?</h1>
+    <div class="content">
+      <p>Processing es un lenguaje de programación y entorno de desarrollo integrado de código abierto basado en Java, de fácil utilización, y que sirve como medio para la enseñanza y producción de proyectos multimedia e interactivos de diseño digital.</p>
+      <div class="row flex-center">
+        <div class="col-4 col">
+          <button onclick="mac()" class="btn-block"><i class="fab fa-apple"></i> Descargar para MacOS</button>
+        </div>
+        <div class="col-4 col">
+          <button onclick="linux()" class="btn-block"><i class="fab fa-linux"></i> Descargar para Linux</button>
+        </div>
+        <div class="col-4 col">
+          <button onclick="windows()" class="btn-block"><i class="fab fa-windows"></i> Descargar para Windows</button>
+        </div>
+      </div>
+    </div>
+    <h1 id="creadores">Creadores</h1>
+    <div class="row flex-center">
+      <div class="col-6 col col1">
+        <div class="card" style="width: 20rem;">
+          <img src="https://arts.mit.edu/wp-content/uploads/2016/11/Ben-Fry_Headshot.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Ben Fry</h4>
+            <h5 class="card-subtitle">Creador</h5>
+            <p class="card-text">Benjamin Fry (nacido en 1975) es un experto estadounidense en visualización de datos. Es director de Fathom, una consultora de diseño y software en Boston, Massachusetts. También es co-desarrollador de Processing, un lenguaje de programación de código abierto y un entorno de desarrollo integrado (IDE) creado para las comunidades de artes electrónicas y diseño visual con el propósito de enseñar los conceptos básicos de la programación de computadoras en un contexto visual. El entorno de diseño de Processing desarrollado junto con Casey Reas ganó una Golden Nica de Prix Ars Electronica en 2005.</p>
+            <a href="https://benfry.com/" target="_blank">SU WEB</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col col2">
+        <div class="card" style="width: 20rem;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Casey_Reas.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Casey Reas</h4>
+            <h5 class="card-subtitle">Creador</h5>
+            <p class="card-text">Casey Edwin Barker Reas (nacido en 1972), también conocido como C. E. B. Reas o Casey Reas, es un artista estadounidense cuyas obras de arte conceptuales, de procedimiento y mínimas exploran ideas a través de la lente contemporánea del software. Reas es quizás mejor conocido por haber creado, con Ben Fry, el lenguaje de programación Processing. Reas nació Casey Edwin Barker Reas en 1972 en Troy, Ohio. Estudió diseño en la Universidad de Cincinnati y luego pasó los dos años siguientes desarrollando software y electrónica como una exploración artística. Mientras estudiaba diseño en Cincinnati, Reas era miembro de una banda llamada 'nancy' con Scott Devendorf y Matt Berninger, quienes luego se convirtieron en miembros de The National. Reas pasó a dirigir cuatro videos musicales para el álbum de la banda de 2017, Sleep Well Beast. En 2001, Reas obtuvo una Maestría en Ciencias en Artes y Ciencias de los Medios como parte del Grupo de Estética y Computación en el Laboratorio de Medios del MIT del Instituto de Tecnología de Massachusetts.</p>
+            <a href="http://reas.com" target="_blank">SU WEB</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 id="getstarted">Comenzar</h1>
+    <div class="content">
+      <h4>Aprende a crear un rectángulo con Processing</h4>
+      <pre><code>
+  void setup() {
+    size(400,400);
+  }
+  void draw() {
+    rect(width/2,height/2,100,50);
+  }
+
+      </code></pre>
+    </div>
+    <h4>Hecho por <a style="color: black!important" href="http://nuzze.000webhostapp.com" target="_blank">Nuzze</a> para Tecno1</h4>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/6c3761ce17.js"></script>
+  </body>
+</html>
