@@ -1,0 +1,43 @@
+body, html {
+  margin: auto;
+  padding: 0;
+}
+h1, h4, p{
+  text-align: center;
+}
+a {
+  color: white!important;
+}
+img {
+  border: none!important;
+  border-radius: 5px!important;
+}
+.split-nav {
+  background-color: black;
+}
+.split-nav a {
+  color: white;
+}
+.border {
+  border-bottom-left-radius: 0px 0px!important;
+  border-bottom-right-radius: 0px 0px!important;
+  border-top-left-radius: 0px 0px!important;
+  border-top-right-radius: 0px 0px!important;
+}
+.col {
+  text-align: -webkit-center!important;
+}
+.col1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.col2 {
+  background-color: #3b3b3b;
+  text-align: center;
+  color: white;
+}
+.card {
+  border: 2px solid transparent!important;
+  border-radius: 10px;
+}
